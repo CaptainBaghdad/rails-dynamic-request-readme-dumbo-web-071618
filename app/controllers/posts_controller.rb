@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
   def show 
-    render 'show'
+    render 'posts#show'
   end 
 end
